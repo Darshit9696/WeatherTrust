@@ -147,6 +147,13 @@ flowchart TD
 The pipeline operates on real Automatic Weather Station historical telemetry:
 
 - **Dataset Source:** MOSDAC, Space Applications Centre (SAC), ISRO (`data/mosdac_gujarat.csv`)
+
+> **Dataset Availability:** The raw MOSDAC dataset is not included in this
+> public repository due to MOSDAC redistribution restrictions. Obtain the AWS
+> dataset through the MOSDAC portal and place it at
+> `data/mosdac_gujarat.csv` before running the analysis pipeline. Derived
+
+
 - **Station ID:** `AGROMET04_15F105`
 - **Station Location:** Junagadh Agricultural University, Junagadh, Gujarat, India
 - **Coordinates:** Latitude 21.499166°N, Longitude 70.443340°E (Altitude not recorded in source)
